@@ -1,11 +1,11 @@
 # banner
 banner:
-  title : "Hi! I’m <br> Christoher <br> UX designer"
+  title : "Saakhi <br> <h4 class='text-white font-tertiary'>Charitable Society</h4>"
 
 # about
 about:
   enable : true
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  content : "വിവരങ്ങൾ ശേഖരിക്കാനും അവ വസ്തുനിഷ്ഠമായി അപഗ്രഥിച്ച് വിശ്വാസ്യത ഉറപ്പു വരുത്തി സമൂഹത്തിന്റെ ഉന്നമനത്തിനായി പ്രയോഗത്തിൽ വരുത്താനുമുള്ള ഒരു കൂട്ടായ്മയാണ് ശാഖി."
   button:
     enable : true
     label : "know more"
