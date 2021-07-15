@@ -13,7 +13,7 @@ about:
 
 # skill
 skill:
-  enable : true
+  enable : false
   title : "Skills"
   item:
     - title : "Web Design"
@@ -34,7 +34,7 @@ skill:
 
 # experience
 experience:
-  enable : true
+  enable : false
   title : "Experience"
   item: 
     - logo : "images/experience/icon-1.png"
@@ -54,7 +54,7 @@ experience:
 
 # education
 education:
-  enable : true
+  enable : false
   title : "Education"
   item:
     - title : "Marters in UX Design"
@@ -75,7 +75,7 @@ education:
 
 # service
 service:
-  enable : true
+  enable : false
   title : "Services"
   item:
     - title : "UI Design"
@@ -96,7 +96,7 @@ service:
 # portfolio
 portfolio:
   enable : true
-  title : "Portfolio"
+  title : "Projects"
   item_show : 5
   # portfolio item comes from 'data/portfolio.yml' item.
 
@@ -122,7 +122,7 @@ testimonial:
 
 # client logo slider
 clients_logo_slider:
-  enable : true
+  enable : false
   item:
     - logo : "images/clients-logo/client-logo-1.png"
       URL : "http://examplesite.com"
