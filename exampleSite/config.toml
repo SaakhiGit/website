@@ -1,7 +1,7 @@
 baseURL = "https://compassionate-booth-0a5bc4.netlify.app"
 languageCode = "en-us"
 summaryLength = "10"
-theme = "kross-hugo"
+theme = "website"
 title = "Saakhi"
 [[menu.main]]
 URL = "about"

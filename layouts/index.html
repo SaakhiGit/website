@@ -6,6 +6,7 @@
       <div class="row">
         <div class="col-lg-11 mx-auto">
           <h1 class="text-white font-tertiary">{{ site.Data.homepage.banner.title | safeHTML }}</h1>
+          <h4 class='text-white font-tertiary'>{{ site.Data.homepage.banner.subtitle | safeHTML }}</h4>
         </div>
       </div>
     </div>
@@ -180,6 +181,24 @@
   {{ end }}
   {{ end }}
 
+  
+  {{ if site.Data.homepage.blog.enable }}
+  <!-- blog -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">{{site.Data.homepage.blog.title | markdownify }}</h2>
+        </div>
+        {{ range first 3 (where .Site.RegularPages "Section" "blog")}}
+        {{ .Render "post" }}
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  <!-- /blog -->
+  {{ end }}
+
 
   {{ if site.Data.homepage.portfolio.enable }}
   <!-- portfolio -->
@@ -255,23 +274,6 @@
     </div>
   </section>
   <!-- /client logo slider -->
-  {{ end }}
-
-  {{ if site.Data.homepage.blog.enable }}
-  <!-- blog -->
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-title">{{site.Data.homepage.blog.title | markdownify }}</h2>
-        </div>
-        {{ range first 3 (where .Site.RegularPages "Section" "blog")}}
-        {{ .Render "post" }}
-        {{ end }}
-      </div>
-    </div>
-  </section>
-  <!-- /blog -->
   {{ end }}
 
 

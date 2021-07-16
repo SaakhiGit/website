@@ -1,6 +1,7 @@
 # banner
 banner:
-  title : "Saakhi <br> <h4 class='text-white font-tertiary'>Charitable Society</h4>"
+  title : "Saakhi"
+  subtitle: "Charitable Society"
 
 # about
 about:
@@ -102,7 +103,7 @@ portfolio:
 
 # testimonial
 testimonial:
-  enable : true
+  enable : false
   title : "Testimonials"
   item:
     - name : "Jesica Gomez"
