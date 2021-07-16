@@ -1,7 +1,7 @@
 ---
-title: "LifeBoat"
+title: "Tawics bags"
 date: 2019-05-12T12:14:34+06:00
-image: "images/blog/post-5.jpg"
+image: "images/blog/post-2.jpg"
 description: "This is meta description."
 draft: false
 ---
